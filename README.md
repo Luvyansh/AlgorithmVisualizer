@@ -38,4 +38,4 @@ Each algorithm comes with:
 
 This project is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License.  
 You can redistribute the code, but modifications are not allowed.  
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](./Licence) file for details.
