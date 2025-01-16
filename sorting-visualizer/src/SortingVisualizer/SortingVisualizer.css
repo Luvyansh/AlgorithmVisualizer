@@ -1,0 +1,88 @@
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align bars to the bottom baseline */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Allows horizontal scrolling on smaller screens */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 15vh;
+    padding: 5px; /* Adds spacing around the bars */
+}
+
+.array-bar {
+    width: 7.5px; /* Slightly wider for better visibility */
+    background: linear-gradient(180deg, #FF7A89, #C1666B); /* Gradient for a modern look */
+    margin: 0 2px; /* Adds consistent spacing */
+    border-radius: 5px; /* Smooth rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow for 3D effect */
+    transition: all 0.3s ease; /*Smooth transitions for animations*/
+}
+
+.array-bar:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    background: linear-gradient(180deg, #FF9FAF, #E07A85); /* Lighter gradient on hover */
+}
+
+
+.generate-array {
+    background-color: #28a745; /* Green for Generate New Array */
+}
+
+.generate-array:hover {
+    background-color: #218838; /* Darker shade on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.profile {
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    margin: 5px; /* Spacing between buttons */
+    font-size: 16px; /* Readable font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover transitions */
+}
+
+.profile:hover {
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.sort-button {
+    background-color: #17a2b8; /* Teal for Sorting buttons */
+}
+
+.sort-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+button {
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    margin: 5px; /* Spacing between buttons */
+    font-size: 16px; /* Readable font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover transitions */
+}
+
+button:active {
+    background-color: #003f7f; /* Even darker shade when active */
+    transform: translateY(0); /* Reset the lift effect */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Softer shadow when pressed */
+}
